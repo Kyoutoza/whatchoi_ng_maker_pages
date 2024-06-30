@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Whatchoi NG Maker</title>
+    <meta content="text/html;charset=utf-8" http-equiv="Content-Type" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="/global.css">
+
+  </head>
+  <body>
+    <div id="main"></div>
+    <script type="module">
+      import init from "/whatchoi_ng_maker/assets/dioxus/the_brigands_dioxus.js";
+      init("/whatchoi_ng_maker/assets/dioxus/the_brigands_dioxus_bg.wasm").then((wasm) => {
+        if (wasm.__wbindgen_start == undefined) {
+          wasm.main();
+        }
+      });
+    </script>
+    
+  </body>
+</html>
