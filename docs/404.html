@@ -5,8 +5,8 @@
     <meta content="text/html;charset=utf-8" http-equiv="Content-Type" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta charset="UTF-8" />
-    <link rel="stylesheet" href="./global.css">
-
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
+    <link rel="stylesheet" href="./global.css" />
   </head>
   <body>
     <div id="main"></div>
@@ -14,14 +14,5 @@
       import init from "./assets/dioxus/whatchoi_ng_maker.js";
       init("./assets/dioxus/whatchoi_ng_maker_bg.wasm");
     </script>
-    
-  <script type="module">
-    import init from "/./assets/dioxus/whatchoi_ng_maker.js";
-    init("/./assets/dioxus/whatchoi_ng_maker_bg.wasm").then(wasm => {
-      if (wasm.__wbindgen_start == undefined) {
-        wasm.main();
-      }
-    });
-    </script>
-    </body>
+  </body>
 </html>
