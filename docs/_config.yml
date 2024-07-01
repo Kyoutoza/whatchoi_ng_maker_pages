@@ -45,6 +45,7 @@ plugins:
 #
 exclude:
   - _posts/2024-07-01-welcome-to-jekyll.markdown
+  - about.markdown
 #   - .sass-cache/
 #   - .jekyll-cache/
 #   - gemfiles/
